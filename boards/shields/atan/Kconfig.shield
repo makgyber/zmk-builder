@@ -1,0 +1,8 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_ATAN_LEFT
+	def_bool $(shields_list_contains,atan_left)
+
+config SHIELD_ATAN_RIGHT
+ 	def_bool $(shields_list_contains,atan_right)

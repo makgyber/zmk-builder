@@ -1,0 +1,11 @@
+file_format: "1"
+id: atan_split
+name: atan_split 
+type: shield
+url: https://github.com/makgyber/zmk-config
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - atan_left
+  - atan_right
