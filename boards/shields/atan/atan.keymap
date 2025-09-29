@@ -17,7 +17,7 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <185>;
+            tapping-term-ms = <150>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -102,8 +102,8 @@
         system_layer {
             bindings = <
                 &trans   &bt BT_NXT  &bt BT_PRV  &bt BT_CLR   &trans      &trans   &bt BT_CLR  &bt BT_PRV   &bt BT_NXT  &trans
-                 &trans &trans   &trans  &trans   &trans               &trans &trans   &trans  &trans   &trans
-                 &trans   &trans  &trans   &trans  &trans              &trans   &trans &trans   &trans  &trans   &trans
+                 &to 0 &trans   &trans  &trans   &trans               &trans &trans   &trans  &trans   &trans
+                 &to 1   &trans  &trans   &trans  &trans              &trans   &trans &trans   &trans  &trans   &trans
 
                         &trans   &trans                     &trans   &trans
             >;
