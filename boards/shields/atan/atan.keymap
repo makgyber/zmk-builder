@@ -65,7 +65,7 @@
             bindings = <
 
                 &lt SYS Q   &kp  W    &kp D   &kp  L    &kp B                  &kp  J    &kp U   &kp O   &kp Y &kp P
-                &kp  A     &kp  S    &kp  T    &kp  R  &kp G                     &kp H   &kp N    &kp E   &kp  I   &kp  K
+                &kp  A     &kp  S    &kp  T    &kp  H  &kp G                     &kp R   &kp N    &kp E   &kp  I   &kp  K
                 &hm LCTRL  Z   &hm LALT V   &hm LSHFT C   &kp F    &kp X             &kp SEMI &kp M  &kp  COMMA   &kp DOT     &kp   RET
                                  &lt NAV SPACE   &hm LGUI    RET          &hm LSHFT SPACE   &lt NUM  BKSP
             >;
